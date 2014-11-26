@@ -16,4 +16,4 @@ This is a second level heading
 ------------------------------
 ```
 
-It is not possible to define, third, fourth, fifth, and sixth level headers using Setext headers. Instead, use [Atx Headers](/guides/headers/atx-headers).
+It is not possible to define, third, fourth, fifth, and sixth level headers using Setext headers. Instead, use [ATX Headers](../atx-headers).
