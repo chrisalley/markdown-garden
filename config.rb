@@ -6,6 +6,8 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+  activate :relative_assets
+  set :relative_links, true
 end
 
 set :markdown_engine, :redcarpet
