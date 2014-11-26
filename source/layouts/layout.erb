@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CommonMark</title>
+    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= javascript_include_tag  "all" %>
+  </head>
+  <body>
+    <div id="overall">
+      <header>
+        <nav>
+          <ul>
+            <li><%= link_to "Home", "/" %></li>
+            <li><%= link_to "Guides", "/guides" %></li>
+            <li><%= link_to "Spec", "http://spec.commonmark.org" %></li>
+            <li><%= link_to "Code", "http://code.commonmark.org" %></li>
+            <li><%= link_to "Discuss", "http://talk.commonmark.org" %></li>
+            <li><%= link_to "Try", "http://try.commonmark.org" %></li>
+          </ul>
+        </nav>
+      </header>
+      <%= yield %>
+    </div>
+  </body>
+</html>

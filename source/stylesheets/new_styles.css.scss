@@ -1,0 +1,42 @@
+div#overall {
+  width: 950px;
+  margin: auto;
+}
+
+nav {
+  ul {
+    li {
+      display: inline;
+      padding: 10px;
+    }
+  }
+}
+
+nav#guides {
+  width: 300px;
+  float: left;
+
+  ul {
+    li {
+      display: block;
+      padding: 0;
+
+      h2 {
+        font-size: 14px;
+      }
+
+      ul {
+        margin-bottom: 5px;
+
+        li {
+          padding-left: 20px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+main {
+  margin-left: 300px;
+}
