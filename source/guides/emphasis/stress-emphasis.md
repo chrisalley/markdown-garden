@@ -2,7 +2,9 @@
 
 Stress Emphasis is used to represent text that should be emphasised.
 
-In Markdown, stress emphasis is defined by placing asterisks or underscores around the text that is to be emphasised. For example, the emphasise the word "quick":
+In Markdown, stress emphasis is defined by placing asterisks or underscores
+around the text that is to be emphasised. For example, the emphasise the word
+"quick":
 
 ```markdown
 The *quick* brown fox jumped over the lazy dog.
@@ -12,7 +14,9 @@ The *quick* brown fox jumped over the lazy dog.
 The _quick_ brown fox jumped over the lazy dog.
 ```
 
-Using asterisks or underscores has the same result in most cases. However, CommonMark compliant applications make a distinction when underscores are used within words.
+Using asterisks or underscores has the same result in most cases. However,
+CommonMark compliant applications make a distinction when underscores are used
+within words.
 
 Asterisks may be used to emphasise text within a word, for example:
 
@@ -20,12 +24,15 @@ Asterisks may be used to emphasise text within a word, for example:
 The quick brown fox *jump*ed over the lazy dog.
 ```
 
-The text "jump" is emphasised here. Whereas if an underscore is used, the word "jump" is not emphasised:
+The text "jump" is emphasised here. Whereas if an underscore is used, the word
+"jump" is not emphasised:
 
 ```markdown
 The quick brown fox _jump_ed over the lazy dog.
 ```
 
-This is useful when using programming code and web addresses within Markdown documents as these often contain underscores within words.
+This is useful when using programming code and web addresses within Markdown
+documents as these often contain underscores within words.
 
-By default, applications and websites usually display stress emphasis as italics.
+By default, applications and websites usually display stress emphasis as
+italics.
