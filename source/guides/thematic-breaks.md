@@ -7,23 +7,30 @@ Thematic breaks should be used to represent scene changes or transition the
 reader to another topic within the same section.
 
 In Markdown documents, thematic breaks may be represented by placing three or
-more hyphens, asterisks, or underscores on a separate line. For example:
+more hyphens, asterisks, or underscores on a separate line, surrounded by blank
+lines. For example:
 
 ```markdown
 A paragraph before the thematic break.
+
 ---
+
 A paragraph after the thematic break.
 ```
 
 ```markdown
 A paragraph before the thematic break.
+
 ***
+
 A paragraph after the thematic break.
 ```
 
 ```markdown
 A paragraph before the thematic break.
+
 ___
+
 A paragraph after the thematic break.
 ```
 
@@ -32,7 +39,9 @@ example:
 
 ```markdown
 A paragraph before the thematic break.
+
 * * *
+
 A paragraph after the thematic break.
 ```
 

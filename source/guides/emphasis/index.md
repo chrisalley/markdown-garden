@@ -1,6 +1,6 @@
 # Emphasis
 
-Emphasis represented text that should be emphasised to the reader. Emphasis
+Emphasis represents text that should be emphasised to the reader. Emphasis
 comes in two types: stress emphasis and strong importance.
 
 - [Stress Emphasis](stress-emphasis)
