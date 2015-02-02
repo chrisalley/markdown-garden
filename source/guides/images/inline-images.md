@@ -1,9 +1,8 @@
 # Inline Images
 
-Inline images are defined in Markdown using similar syntax to [links](../links)
-but by preceding the markup with an exclamation mark. Following the exclamation
-mark, the image's alternative text is placed in square brackets followed by the
-URL of the image in regular brackets. For example:
+Inline images are defined in Markdown by preceding the markup with an
+exclamation mark followed by the image's alternative text in square brackets
+followed by the URL of the image in regular brackets. For example:
 
 ```markdown
 ![CommonMark logo](http://www.commonmark.org/logo.png)

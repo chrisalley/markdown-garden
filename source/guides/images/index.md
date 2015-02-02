@@ -3,8 +3,10 @@
 Images are pictures that are intended to be embedded in the current document,
 from either the same server or from an external image provider.
 
-In Markdown, images can be defined in two ways: inline images and reference
-images.
+In Markdown, images can be defined using similar syntax to
+[links](../links) but by preceding the markup with an exclamation mark.
+
+Images are defined in two ways: inline images and reference images.
 
 - [Inline Images](inline-images)
 - [Reference Images](reference-images)
