@@ -23,7 +23,7 @@ ATX Headers can be used to define headers up to six levels deep. Examples:
 ```
 
 ```markdown
-###### This is a fifth level header
+##### This is a fifth level header
 ```
 
 ```markdown
