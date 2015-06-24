@@ -20,9 +20,9 @@ hyphen, followed by a space, at the start of each list item. For example:
 ```
 
 ```markdown
-+ Metaphysics
-+ Epistemology
-+ Ethics
+- Metaphysics
+- Epistemology
+- Ethics
 ```
 
 A new unordered list can be started by changing the list marker:
