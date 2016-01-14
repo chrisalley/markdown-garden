@@ -54,6 +54,7 @@ git push origin master
 Now publish the website:
 
 ```
+rm -rf build
 bundle exec rake publish
 ```
 
