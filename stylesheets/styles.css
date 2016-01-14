@@ -1,0 +1,38 @@
+/* line 1, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+div#overall {
+  width: 950px;
+  margin: auto; }
+
+/* line 8, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+header nav ul {
+  padding-left: 0; }
+  /* line 10, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+  header nav ul li {
+    display: inline;
+    padding-right: 10px; }
+
+/* line 18, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+nav#guides {
+  width: 300px;
+  float: left; }
+  /* line 22, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+  nav#guides ul {
+    padding-left: 0; }
+    /* line 25, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+    nav#guides ul li {
+      display: block;
+      padding: 0; }
+      /* line 29, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+      nav#guides ul li h2 {
+        font-size: 14px; }
+      /* line 33, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+      nav#guides ul li ul {
+        margin-bottom: 5px; }
+        /* line 36, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+        nav#guides ul li ul li {
+          padding-left: 20px;
+          font-size: 14px; }
+
+/* line 45, /Users/chris/Code/markdown-garden/source/stylesheets/styles.scss */
+main {
+  margin-left: 300px; }

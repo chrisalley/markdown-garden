@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Markdown Garden</title>
+    <link href="../../../stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="../../../stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <script src="../../../javascripts/all.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="overall">
+      <header>
+        <h1>Markdown Garden</h1>
+        <nav>
+          <ul>
+            <li><a href="../../../">Home</a></li>
+            <li><a href="../../">Guides</a></li>
+          </ul>
+        </nav>
+      </header>
+        <nav id="guides">
+    <ul>
+  <li>
+      <h2><a href="../../paragraphs/">Paragraphs</a></h2>
+  </li>
+  <li>
+      <h2><a href="../../line-breaks/">Line Breaks</a></h2>
+  </li>
+  <li>
+      <h2><a href="../../thematic-breaks/">Thematic Breaks</a></h2>
+  </li>
+  <li>
+        <h2>
+          <a href="../../headers/">Headers</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="../../headers/setext-headers/">Setext Headers</a>
+            </li>
+            <li>
+              <a href="../../headers/atx-headers/">ATX Headers</a>
+            </li>
+          </ul>
+  </li>
+  <li>
+        <h2>
+          <a href="../../emphasis/">Emphasis</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="../../emphasis/stress-emphasis/">Stress Emphasis</a>
+            </li>
+            <li>
+              <a href="../../emphasis/strong-importance/">Strong Importance</a>
+            </li>
+          </ul>
+  </li>
+  <li>
+        <h2>
+          <a href="../../lists/">Lists</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="../../lists/unordered-lists/">Unordered Lists</a>
+            </li>
+            <li>
+              <a href="../../lists/ordered-lists/">Ordered Lists</a>
+            </li>
+            <li>
+              <a href="../../lists/nested-lists/">Nested Lists</a>
+            </li>
+          </ul>
+  </li>
+  <li>
+        <h2>
+          <a href="../../links/">Links</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="../../links/inline-links/">Inline Links</a>
+            </li>
+            <li>
+              <a href="../../links/reference-links/">Reference Links</a>
+            </li>
+            <li>
+              <a href="../../links/automatic-links/">Automatic Links</a>
+            </li>
+          </ul>
+  </li>
+  <li>
+        <h2>
+          <a href="../../images/">Images</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="../../images/inline-images/">Inline Images</a>
+            </li>
+            <li>
+              <a href="../../images/reference-images/">Reference Images</a>
+            </li>
+          </ul>
+  </li>
+  <li>
+        <h2>
+          <a href="../">Quotations</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="./">Block Quotes</a>
+            </li>
+            <li>
+              <a href="../nested-block-quotes/">Nested Block Quotes</a>
+            </li>
+          </ul>
+  </li>
+  <li>
+        <h2>
+          <a href="../../code/">Code</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="../../code/code-spans/">Code Spans</a>
+            </li>
+            <li>
+              <a href="../../code/indented-code-blocks/">Indented Code Blocks</a>
+            </li>
+            <li>
+              <a href="../../code/fenced-code-blocks/">Fenced Code Blocks</a>
+            </li>
+          </ul>
+  </li>
+  <li>
+      <h2><a href="../../escaping-markdown/">Escaping Markdown</a></h2>
+  </li>
+  <li>
+        <h2>
+          <a href="../../html/">HTML</a>
+        </h2>
+          <ul>
+            <li>
+              <a href="../../html/inline-html/">Inline HTML</a>
+            </li>
+            <li>
+              <a href="../../html/html-blocks/">HTML Blocks</a>
+            </li>
+            <li>
+              <a href="../../html/entities/">Entities</a>
+            </li>
+          </ul>
+  </li>
+</ul>
+
+  </nav>
+  <main>
+    <h1>Block Quotes</h1>
+
+<p>Block quotes represent one or more lines of text (or other content) that have
+been quoted from another source.</p>
+
+<p>In Markdown, a block quote is defined by placing a greater-than sign,
+optionally followed by a space, at the start of each paragraph of the block
+quote. For example:</p>
+
+<pre><code class="markdown">&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget eros in nulla dignissim suscipit. Phasellus tempor nisl sed nulla eleifend, ac imperdiet ipsum aliquam.
+</code></pre>
+
+<p>Block quotes may also be split over multiple lines for readability by placing
+a greater-than sign at the start of each line. For example:</p>
+
+<pre><code class="markdown">&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+&gt; Nullam eget eros in nulla dignissim suscipit. Phasellus
+&gt; tempor nisl sed nulla eleifend, ac imperdiet ipsum
+&gt; aliquam.
+</code></pre>
+
+<p>If multiple paragraphs in block quotes are placed directly next to one another
+they will be joined together to produce a single block quote:</p>
+
+<pre><code class="markdown">&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+&gt; Nullam eget eros in nulla dignissim suscipit. Phasellus
+&gt; tempor nisl sed nulla eleifend, ac imperdiet ipsum
+&gt; aliquam.
+
+&gt; In ac eros ac ligula varius tempor. Phasellus
+&gt; efficitur volutpat ipsum, auctor faucibus velit finibus
+&gt; non. Fusce a nisl vitae diam faucibus vestibulum.
+&gt; Praesent velit massa, laoreet a rhoncus non, luctus in
+&gt; ligula.
+</code></pre>
+
+<p>Block quotes may also contain other Markdown elements nested inside of
+them, for example headers and lists:</p>
+
+<pre><code class="markdown">&gt; This is a block quote containing a header
+&gt;
+&gt; # This is a header
+&gt;
+&gt; And a list
+&gt;
+&gt; 1. Item One
+&gt; 2. Item Two
+</code></pre>
+
+  </main>
+
+    </div>
+  </body>
+</html>
