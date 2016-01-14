@@ -1,0 +1,25 @@
+<ul>
+  <% data.guides.each do |guide| %>
+  <li>
+    <% if guide.kind_of?(String) %>
+      <h2><%= link_to guide, "/guides/#{guide.to_url}.html" %></h2>
+    <% elsif guide.kind_of?(Hash) %>
+      <% guide.each do |parent_guide, child_guides| %>
+        <h2>
+          <%= link_to parent_guide, "/guides/#{parent_guide.to_url}/index.html" %>
+        </h2>
+        <% if child_guides %>
+          <ul>
+            <% child_guides.each do |child_guide| %>
+            <li>
+              <%= link_to child_guide, "/guides/#{parent_guide.to_url}/" +
+                "#{child_guide.to_url}.html" %>
+            </li>
+            <% end %>
+          </ul>
+        <% end %>
+      <% end %>
+    <% end %>
+  </li>
+  <% end %>
+</ul>

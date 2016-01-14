@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Markdown Garden</title>
+    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= javascript_include_tag  "all" %>
+  </head>
+  <body>
+    <div id="overall">
+      <header>
+        <h1>Markdown Garden</h1>
+        <nav>
+          <ul>
+            <li><%= link_to "Home", "/index.html" %></li>
+            <li><%= link_to "Guides", "/guides/index.html" %></li>
+          </ul>
+        </nav>
+      </header>
+      <%= yield %>
+    </div>
+  </body>
+</html>
