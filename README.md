@@ -1,6 +1,6 @@
-## CommonMark Website
+## Markdown Garden
 
-The CommonMark project's website. <http://www.commonmark.org>
+A little corner of the Internet that's all about Markdown.
 
 ### Installing Locally
 
@@ -8,8 +8,8 @@ This guide assumes that you already have Git, Ruby, RubyGems, and Bundler
 installed on your development machine.
 
 ```
-git clone git://github.com/chrisalley/commonmark-website.git
-cd commonmark-website
+git clone git://github.com/chrisalley/markdown-garden.git
+cd markdown-garden
 bundle
 bundle exec middleman
 ```
@@ -18,8 +18,8 @@ Then visit <http://localhost:4567> to view the website.
 
 ### Making Changes Locally
 
-You can edit the CommonMark Guides in `/source/guides`. These guides should all
-be valid CommonMark.
+You can edit the guides in `/source/guides`. These guides should all
+be valid [CommonMark][commonmark].
 
 Guide file and directory names should be a lowercase, parameterised, version of
 the guide's title, using [stringex][stringex]-style parameterisation. Guides
@@ -61,6 +61,7 @@ This will build a static version of the website and replace the contents of the
 `gh-pages` branch with this new version. The changes will now be live on
 [the GitHub Pages site][github-pages].
 
+[commonmark]: http://www.commonmark.org
 [stringex]: https://github.com/rsl/stringex
-[new-pull-request]: https://github.com/chrisalley/commonmark-website/compare
-[github-pages]: https://chrisalley.github.io/commonmark-website
+[new-pull-request]: https://github.com/chrisalley/markdown-garden/compare
+[github-pages]: https://chrisalley.github.io/markdown-garden

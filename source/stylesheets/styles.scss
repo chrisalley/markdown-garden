@@ -3,11 +3,14 @@ div#overall {
   margin: auto;
 }
 
-nav {
-  ul {
-    li {
-      display: inline;
-      padding: 10px;
+header {
+  nav {
+    ul {
+      padding-left: 0;
+      li {
+        display: inline;
+        padding-right: 10px;
+      }
     }
   }
 }
@@ -17,6 +20,8 @@ nav#guides {
   float: left;
 
   ul {
+    padding-left: 0;
+
     li {
       display: block;
       padding: 0;
