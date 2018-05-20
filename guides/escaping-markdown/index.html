@@ -154,6 +154,30 @@
   <main>
     <h1>Escaping Markdown</h1>
 
+<p>Sometimes you may want to use a character that Markdown already uses for
+formatting the document, such as an asterisk or exclamation mark. In these
+cases, a backslash (<code>\</code>) can be used to &ldquo;escape&rdquo; from Markdown formatting being
+applied using the character.</p>
+
+<p>Any <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> punctuation character can be escaped with a backslash. ASCII
+characters are generally the characters found on a standard keyboard such as
+<code>!</code>, <code>@</code>, and <code>*</code>. For example:</p>
+
+<pre><code class="markdown">This asterisk pair \*is escaped*\, but this pair *starts emphasising.*
+</code></pre>
+
+<p>If an non-ASCII character is used, such as a <a href="unicode">Unicode</a> emoji, the
+literal backslash will be rendered. For example:</p>
+
+<pre><code class="markdown">This backslash \😀 is rendered, as is the non-ASCII emoji.
+</code></pre>
+
+<p>Even though the backslash is an ASCII character, you are not required to escape
+a backslash with another backslash for it to be rendered. For example:</p>
+
+<pre><code class="markdown">This backslash \ will be rendered as a literal backslash.
+</code></pre>
+
   </main>
 
     </div>
