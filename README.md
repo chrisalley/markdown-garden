@@ -30,14 +30,9 @@ To add new guides or reorder existing guides, edit `/data/guides.yml`. The
 table of contents (including links) will be automatically generated based on the
 convention used in the YAML file and directory/file names of the guides.
 
-Once changes have been made, run the following command to generate a new static
-version of the site:
-
-```
-bundle exec middleman build
-```
-
-Then visit <http://localhost:4567> to view the changes.
+Once changes have been made, run the `bundle exec middleman` command to generate
+a new static version of the site (and run it locally). Then visit
+<http://localhost:4567> to view the changes.
 
 ### Publishing Changes
 
